@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: longes_line.h
-Authors: mcasal & sgalella
+Authors: mikirubio & sgalella
 Description: compute longest line
  */
 

@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: amount_lines.h
-Authors: mcasal & sgalella
+Authors: mikirubio & sgalella
 Description: count lines
  */
 

@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: simulation10.h
-Authors: mcasal & sgalella
+Authors: mikirubio & sgalella
 Description: simulate the falling of 10 different balls
  */
 
