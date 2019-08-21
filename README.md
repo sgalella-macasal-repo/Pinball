@@ -22,11 +22,15 @@ It simulates the falling of a ball in a pinball. 4 different available options:
 
 Menu option
 
-![alt text](Images/menu.jpg)
+<p align="center">
+  <img width="328" height="86" src="images/menu.jpg">
+</p>
 
 Example of simulation of a ball fall. The numbers indicate the trajectory of the ball.
 
-![alt text](Images/pinball.jpg)
+<p align="center">
+  <img width="400" height="439" src="images/pinball.jpg">
+</p>
  
 
 #### Notes
