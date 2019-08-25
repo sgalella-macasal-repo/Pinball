@@ -6,7 +6,7 @@ Description: simulate the falling of a single ball
  */
 
 void simulation1(int table[50][50], int action){
-	int position,b=0,z=2,s; //n and b are the matrix rows and columns, z is a counter and s is a variable containing the direction
+	int position,s; //s is a variable containing the direction
 	char direction;
 	do{ //insert a valid initial position for 1 ball fall
 		printf("Please, give a number from 1 to 50 to choose the column through which the game will leave the ball. If you do not introduce a valid number, we will ask you for another one\n");
