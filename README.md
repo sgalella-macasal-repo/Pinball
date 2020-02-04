@@ -1,6 +1,6 @@
 # Pinball
 
-###### _Authors: sgalella, mikirubio_
+###### _Authors: sgalella, macasal
 
 #### Description
 
