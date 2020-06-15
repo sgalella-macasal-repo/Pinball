@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: main.c
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: main of the program
  */
 

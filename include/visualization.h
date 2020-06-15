@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: visualization.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: visualize the table as a pinball
  */
 

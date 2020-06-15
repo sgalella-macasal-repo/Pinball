@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: statistics.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: compute statistics
  */
 

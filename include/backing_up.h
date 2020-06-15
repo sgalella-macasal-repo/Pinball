@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: backing_up.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: backup array of table
  */
 

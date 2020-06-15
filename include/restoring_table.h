@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: restoring_table.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: retrieve original status of the table
  */
 

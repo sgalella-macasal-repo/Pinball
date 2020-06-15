@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: simulation1.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: simulate the falling of a single ball
  */
 

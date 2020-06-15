@@ -1,7 +1,7 @@
 /*
 Project: Pinball
 Name: menu.h
-Authors: mikirubio & sgalella
+Authors: macasal & sgalella
 Description: interactive menu for the pinball
  */
 
