@@ -1,23 +1,24 @@
-CC          = gcc
-LD          = gcc 
-CFLAG       = -Wall -Iinclude
-EXE		    = pinball
+CC = gcc
+CFLAGS = -Wall -Iinclude
 
-SRC_DIR     = ./src
-BUILD_DIR   = ./build
-BIN_DIR     = ./bin
-INC_DIR     = ./include
+vpath %.c src
+vpath %.h include
 
-SRC_LIST = $(wildcard $(SRC_DIR)/*.c)
-OBJ_LIST = $(BUILD_DIR)/$(notdir $(SRC_LIST:.c=.o))
+build_dir = build
+bin_dir = bin
 
-all: $(EXE)
+.PHONY: all
 
-compile: 
-	$(CC) -c $(CFLAG) $(SRC_LIST) -o $(OBJ_LIST)
+all: main
 
-$(EXE): compile
-	$(LD) $(OBJ_LIST) -o $(BIN_DIR)/$@
+main: $(build_dir)/main.o $(build_dir)/pinball.o
+	$(CC) $(CFLAGS) $^ -o $(bin_dir)/$@
+
+$(build_dir)/main.o: main.c pinball.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(build_dir)/pinball.o: pinball.c pinball.h
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(BIN_DIR)/$(EXE) $(BUILD_DIR)/*.o
+	@rm bin/*  build/*
