@@ -1,4 +1,5 @@
 CC = gcc
+LD = gcc
 CFLAGS = -Wall -Iinclude
 
 vpath %.c src
@@ -12,7 +13,7 @@ bin_dir = bin
 all: main
 
 main: $(build_dir)/main.o $(build_dir)/pinball.o
-	$(CC) $(CFLAGS) $^ -o $(bin_dir)/$@
+	$(LD) $(CFLAGS) $^ -o $(bin_dir)/$@
 
 $(build_dir)/main.o: main.c pinball.h
 	$(CC) $(CFLAGS) -c $< -o $@
