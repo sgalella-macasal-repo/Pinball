@@ -13,9 +13,11 @@ bin_dir = bin
 all: main
 
 main: $(build_dir)/main.o $(build_dir)/pinball.o
+	@mkdir -p $(bin_dir) 
 	$(LD) $(CFLAGS) $^ -o $(bin_dir)/$@
 
 $(build_dir)/main.o: main.c pinball.h
+	@mkdir -p $(build_dir)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(build_dir)/pinball.o: pinball.c pinball.h
